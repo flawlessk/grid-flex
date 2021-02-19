@@ -1,0 +1,96 @@
+/* WHOLE CONTAINER */
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 'header header header'
+                         'ttl ttr ttr'
+                         'footer footer footer';
+    grid-gap: 10px;
+}
+/* .container div {
+    border: 1px solid black;
+} */
+/* HEADER */
+.main-header {
+    grid-area: header;
+    background-image: url(../pictures/header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    height: 300px;
+}
+.navbar-ul {
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-li {
+    padding-top: 100px;
+}
+.navbar-li a {
+    font-size: 30px;
+    color: aqua;
+    font-family: 'BPG ExtraSquare Mtavruli';
+}
+.navbar-li a:hover {
+    cursor: wait;
+    text-decoration: underline;
+}
+/* Get in touch */
+.left-content {
+    grid-area: ttl;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+h2 {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: 'BPG ExtraSquare Mtavruli';
+}
+label {
+    font-family: 'BPG Sans';
+}
+.form-details {
+    margin-top: 10px;
+    padding: 10px;
+}
+/* INFO ABOUT CITY */
+.right-content {
+    grid-area: ttr;
+}
+.right-content p {
+    padding: 5px;
+    background-color:rgb(100, 167, 255);
+    font-family: 'BPG ExtraSquare Mtavruli';
+}
+/* FOOTER INFO */
+.main-footer {
+    grid-area: footer;
+    background-image: url(../pictures/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+.cards {
+    padding: 20px;
+}
+.cards img {
+    width: 80px;
+    height: 50px;
+}
+.social {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+.social-icons {
+    padding: 30px;
+}
+.social-icons img {
+    width: 100px;
+}
+
+

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'BPG ExtraSquare Mtavruli';
+    src: url('/fonts/BPGExtraSquareMtavruli.eot');
+    src: url('/fonts/BPGExtraSquareMtavruli.eot') format('embedded-opentype'),
+        url('/fonts/BPGExtraSquareMtavruli.woff2') format('woff2'),
+        url('/fonts/BPGExtraSquareMtavruli.woff') format('woff'),
+        url('/fonts/BPGExtraSquareMtavruli.ttf') format('truetype'),
+        url('/fonts/BPGExtraSquareMtavruli.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BPG Sans';
+    src: url('/fonts/BPGSans.eot');
+    src: url('/fonts/BPGSans.eot') format('embedded-opentype'),
+        url('/fonts/BPGSans.woff2') format('woff2'),
+        url('/fonts/BPGSans.woff') format('woff'),
+        url('/fonts/BPGSans.ttf') format('truetype'),
+        url('/fonts/BPGSans.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
